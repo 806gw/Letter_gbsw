@@ -47,6 +47,7 @@
   border-radius: 12px;
   font-size: 20px;
   color: rgb(30, 77, 43);
+  cursor: pointer;
 }
 
 form {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from 'pages/Write/Write.module.css'
 import Header from "components/Header/Header";
+import PencilIco from '../../img/pencil-svgrepo-com.svg'
 
 function Writepage() {
   const [buttonState, setButtonState] = useState<boolean>(false)
@@ -14,6 +15,7 @@ function Writepage() {
     <>
       <Header />
       <div className={styles.Write_container}>
+        <div id={styles.title}>마음의 편지쓰기 <img src={PencilIco} /></div>
         <div className={styles.title}>
           <span>제목</span>
           <input type="text" className={styles.write_title} />

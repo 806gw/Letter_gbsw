@@ -5,6 +5,8 @@ import BoxIco from 'img/box-svgrepo-com.svg'
 import Header from "../Header/Header";
 import { useNavigate } from "react-router-dom";
 
+
+
 function Main() {
   const navigate = useNavigate();
   return (
